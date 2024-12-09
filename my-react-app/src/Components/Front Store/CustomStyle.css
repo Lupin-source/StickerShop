@@ -1,0 +1,55 @@
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.custom-card:hover {
+  box-shadow: 0 4px 8px rgba(75, 33, 33, 0.815);
+  transition: box-shadow 0.3s ease;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+.sidebar2 {
+    padding: 20px; 
+    width: 250px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.customButtonFront {
+  background: transparent; 
+  border: none;
+  cursor: pointer; 
+  display: block; 
+  margin: 20px auto; 
+  width: 80%;
+  text-align: center; 
+  color:#bc4749;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.logo-image {
+  width: 90px;
+  border-radius: 50px;
+  margin-left: 0px;
+}
+.mb-4 .me-auto {
+  font-size: 30px;
+  color:#570303;
+  margin-left: 20px;
+}
+.sidebar2 [type="checkbox"]:hover {
+  border-color: aqua;
+  cursor: pointer;
+}
+.me-2 {
+  font-size: 30px;
+  color: rgb(189, 126, 11);
+  background-color: transparent;
+}
